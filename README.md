@@ -15,6 +15,7 @@ This project was built using React, Node.js, express, mongoDB, jQuery/Javascript
 - As a logged in user, I can chat with my fellow anime lovers.
 - As a logged in user, I can edit my account information in case I want to update or delete my information.
 
+
 --
 ###MVP
 
