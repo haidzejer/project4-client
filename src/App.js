@@ -8,7 +8,7 @@ import HomePartial from './HomePartial';
 import EditUser from './EditUser';
 import io from 'socket.io-client';
 
-const socket = io("https://project4-client.herokuapp.com/" || 'http://localhost:3001')
+const socket = io("https://project4-db.herokuapp.com/" || 'http://localhost:3001')
 socket.on('connect', () => {
   console.log('Connected to socket io from client...')
 })

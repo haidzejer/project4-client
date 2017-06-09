@@ -1,7 +1,7 @@
 import axios from 'axios'
 import jwt_decode from 'jwt-decode'
 
-axios.defaults.baseURL = 'https://project4-client.herokuapp.com/' || 'http://localhost:3001'
+axios.defaults.baseURL = 'https://project4-db.herokuapp.com/' || 'http://localhost:3001'
 
 const clientAuth = {
 
