@@ -146,7 +146,7 @@ class App extends Component {
           edit:
           <div>
             <EditUser onClick={this._edit.bind(this)}/>
-            <button className="editUser" onClick={this._deleteUser.bind(this)}>Delete your bitch ass</button>
+            <button className="editUser" onClick={this._deleteUser.bind(this)}>Delete Your Profile</button>
           </div>,
           otaku: <Otaku socket={socket} />
         }[this.state.view]}

@@ -47,7 +47,7 @@ class Chat extends Component {
           </div>
         </div>
         <input id="input" ref="message" placeholder="Type a message here..." type="text" />
-        <button id="send-message" onClick={this._sendMessage.bind(this)} required='true'>Send your bitch ass message</button>
+        <button id="send-message" onClick={this._sendMessage.bind(this)} required='true'>Send</button>
       </div>
     )
   }

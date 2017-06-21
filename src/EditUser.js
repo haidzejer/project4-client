@@ -39,7 +39,7 @@ class EditUser extends Component {
   render() {
     return (
       <div className="container">
-        <h2>HELLO THERE, Time to change yourself</h2>
+        <h2>HELLO THERE, Time to edit your information!</h2>
         <form onSubmit={this._editUser.bind(this)}>
           <label className="col-1"><span>Name </span>
           <input className="col-2" name="name" type='text' placeholder="Name" ref='name'
@@ -54,7 +54,7 @@ class EditUser extends Component {
           <label className="col-1"><span>Bio </span>
           <textarea className="col-2" name="bio" type='text' placeholder="Short personal description" ref="bio" onChange={this._handleInputChange.bind(this)} value={this.state.currentUser.bio} /><br/>
           </label>
-          <button className="editUser" type='submit'>Update your bitch ass</button>
+          <button className="editUser" type='submit'>Update</button>
         </form>
       </div>
     )

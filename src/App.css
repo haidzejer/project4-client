@@ -77,9 +77,11 @@ button {
 }
 
 .chat-col {
-  float: left;
-  margin: -45% 67%;
-  width: 30%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .picture {

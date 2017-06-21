@@ -59,7 +59,6 @@ export default class Map extends Component {
     return (
       <div>
       <ReactMapboxGl
-        // eslint-disable-next-line
         style={style}
         accessToken={accessToken}
         center={this.state.center}
